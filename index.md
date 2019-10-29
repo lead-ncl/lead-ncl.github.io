@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Theme Made By www.w3schools.com -->
+    <title>LEVA-Group</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <!--<link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+      type="text/css"
+    />-->
+    <link
+      href="https://fonts.googleapis.com/css?family=EB+Garamond|Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!--<link
+      href="https://fonts.googleapis.com/css?family=Lato"
+      rel="stylesheet"
+      type="text/css"
+    />-->
+    <link href="style.css" rel="stylesheet" />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <!--<nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#myPage"
+            ><img
+            src="https://cdn.glitch.com/2a501e8d-a0f6-4eba-973f-f11e410ae42e%2Flogodarkbg.png?v=1571316919527"
+            height="40"</a
+          >
+        </div>
+        <div class="navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Members</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>-->
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="#"
+        ><img
+          src="img/levadarkbgnotitle.png"
+          height="40"
+      /></a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#people">People</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#resources">Resources</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="jumbotron text-center">
+      <h1>
+        <img
+          src="img/litebgnotitlealt.png"
+          id="toplogo"
+        />
+      </h1>
+      <h3>Language Evolution, Variation, and Acquisition Group</h3>
+      <p>Newcastle University, UK</p>
+    </div>
+
+    <!-- Container (About Section) -->
+    <div id="about" class="container-fluid bg-grey">
+      <div class="row container-row">
+        <div class="col-sm-8">
+          <br />
+          <br />
+          <h2>About</h2>
+          <br />
+          <h4>
+            We're a group of interdisciplinary researchers studying the
+            evolution, variation, and acquisition of language.
+          </h4>
+          <br />
+          <p>
+            Language exists in every human society, enabling much of our
+            uniquely human culture: it's difficult to imagine anything from
+            cities and technology to art and cuisine without it. Yet, no other
+            species on the planet communicates in such a complex way, using an
+            intricate, rule-governed system of symbols. In other words, while
+            language is a human universal, it is also unique: no other species
+            on the planet communicates in such a complex way.
+          </p>
+          <p>
+            Despite all this, there is still a lot of work to be done on the
+            "big" questions about language: How and why are we the only species
+            that speaks? How and why do languages vary across space and time?
+            How do children acquire complex linguistic systems so effortlessly?
+          </p>
+          <p>
+            We take a broad approach to these issues, using a variety of
+            methodological tools from corpora and computational models to
+            experimental approaches and field work. Our research intersects with
+            cultural evolution, anthropology, complex systems science, and
+            developmental and cogitive science.
+          </p>
+          <!--<br /><button class="btn btn-default btn-lg">Contact</button>-->
+        </div>
+        <div class="col-sm-4">
+          <span class="glyphicon glyphicon-signal logo"></span>
+        </div>
+      </div>
+    </div>
+
+    <!--<div class="container-fluid bg-grey">
+      <div class="row">
+        <div class="col-sm-4">
+          <span class="glyphicon glyphicon-globe logo slideanim"></span>
+        </div>
+        <div class="col-sm-8">
+          <h2>Our Values</h2>
+          <br />
+          <h4>
+            <strong>MISSION:</strong> Our mission lorem ipsum dolor sit amet,
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.
+          </h4>
+          <br />
+          <p>
+            <strong>VISION:</strong> Our vision Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat.
+          </p>
+        </div>
+      </div>
+    </div>-->
+
+    <!-- Container (Services Section) -->
+    <div id="people" class="container-fluid text-center">
+      <div class="container-row">
+        <br />
+        <br />
+        <h2>People</h2>
+        <br />
+        <hr />
+        <h3>
+          Faculty
+        </h3>
+        <div class="row slideanim">
+          <div class="col">
+            <img
+              src="https://ccuskley.github.io/images/phototry3.jpg"
+              class="rounded-circle"
+              alt=""
+              height="200"
+            />
+            <h4>
+              <a href="https://ccuskley.github.io" target="_blank"
+                >Dr Christine Cuskley</a
+              >
+            </h4>
+
+            <p>Language evolution, perception, social computation</p>
+          </div>
+          <div class="col">
+            <img
+              src="img/dan.jpg"
+              class="rounded-circle"
+              alt=""
+              height="200"
+            />
+            <h4>
+              <a
+                href="https://sites.google.com/view/dan-duncan-sociolinguist/home"
+                target="_blank"
+                >Dr Dan Duncan</a
+              >
+            </h4>
+            <p>Sociolinguistics, language variation and change</p>
+          </div>
+          <div class="col">
+            <img
+              src="img/Joel.jpg"
+              class="rounded-circle"
+              alt=""
+              height="200"
+            />
+            <h4>
+              <a href="https://www.staff.ncl.ac.uk/joel.wallenberg/index.html"
+                >Dr Joel Wallenberg</a
+              >
+            </h4>
+            <p>Language evolution and change, syntactic theory</p>
+          </div>
+          <div class="col">
+            <img
+              src="img/becky.jpg"
+              class="rounded-circle"
+              alt=""
+              height="200"
+            />
+            <h4>
+              <a href="https://rebeccalwoods.wordpress.com/"
+                >Dr Rebecca Woods</a
+              >
+            </h4>
+            <p>Language acquisition, syntax-semantics interface</p>
+          </div>
+        </div>
+        <div class="container-fluid bg-grey">
+          <h3>Current Students</h3>
+          <hr />
+          <br />
+          <div class="row slideanim">
+            <div class="col">
+              <h4>
+                Imma Student
+              </h4>
+              <p>
+                This is my project title.
+              </p>
+            </div>
+            <div class="col">
+              <h4>
+                Imma Student
+              </h4>
+              <p>
+                This is my project title.
+              </p>
+            </div>
+            <div class="col">
+              <h4>
+                Imma Student
+              </h4>
+              <p>
+                This is my project title.
+              </p>
+            </div>
+            <div class="col">
+              <h4>
+                Imma Student
+              </h4>
+              <p>
+                This is my project title.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--<div class="col">
+          <img
+            src="http://www2.hawaii.edu/~rory9/images/avatar.jpg"
+            class="rounded-circle"
+            alt=""
+            height="200"
+          />
+          <h4>
+            <a href="http://www2.hawaii.edu/~rory9/" target="_blank"
+              >Dr Rory Turnbull</a
+            >
+          </h4>
+          <p>Sound structure, sound change, and lexical organization</p>
+        </div>-->
+    <!--<br /><br />
+      <div class="row slideanim">
+        <div class="col">
+          <img
+            src="https://cdn.glitch.com/2a501e8d-a0f6-4eba-973f-f11e410ae42e%2FJoel.jpg?v=1571322909372"
+            class="rounded-circle"
+            alt=""
+            height="200"
+          />
+          <h4>
+            <a href="https://www.staff.ncl.ac.uk/joel.wallenberg/index.html"
+              >Dr Joel Wallenberg</a
+            >
+          </h4>
+          <p>Language evolution and change, syntactic theory</p>
+        </div>
+        <div class="col">
+          <img
+            src="https://cdn.glitch.com/2a501e8d-a0f6-4eba-973f-f11e410ae42e%2Fimg_1738.jpg?v=1571323448855"
+            class="rounded-circle"
+            alt=""
+            height="200"
+          />
+          <h4>
+            <a href="https://rebeccalwoods.wordpress.com/">Dr Rebecca Woods</a>
+          </h4>
+          <p>Language acquisition, syntax-semantics interface</p>
+        </div>
+      </div>-->
+
+    <!-- Container (Portfolio Section) -->
+    <div id="projects" class="container-fluid text-center bg-grey">
+      <div class="container-row">
+        <br />
+        <br />
+        <h2>Projects</h2>
+        <br />
+        <hr />
+        <h4>What we're working on</h4>
+        <div class="row text-center slideanim">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <!--<img src="paris.jpg" alt="" width="400" height="300" />-->
+              <p><strong>It's the name of a project</strong></p>
+              <p>
+                Wow look, now it's a description. Much information, so
+                interesting.
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <!--<img src="paris.jpg" alt="" width="400" height="300" />-->
+              <p><strong>It's the name of a project</strong></p>
+              <p>
+                Wow look, now it's a description. Much information, so
+                interesting.
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <!--<img src="paris.jpg" alt="" width="400" height="300" />-->
+              <p><strong>It's the name of a project</strong></p>
+              <p>
+                Wow look, now it's a description. Much information, so
+                interesting.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Container (Pricing Section) -->
+    <div id="resources" class="container-fluid text-center">
+      <div class="container-row">
+        <br />
+        <br />
+        <h2>Resources</h2>
+        <br />
+        <hr />
+        <h4>Learning: Links for learning stuff</h4>
+        <!--<div class="row text-center slideanim">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+ 
+              <a href="https://r4ds.had.co.nz/" target="_blank"
+                ><p><strong>R4DS</strong></p></a
+              >
+              <p>
+                Hadley Wickham's tidyr bible, completely free and open source
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <a
+                href="https://experimentalfieldlinguistics.wordpress.com/statistics-and-r-blogs/"
+                target="_blank"
+                ><p><strong>R Resources for linguists</strong></p></a
+              >
+              <p>
+                A large repository of resources for learning R, aimed
+                particularly at field linguists
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <a href="https://seeing-theory.brown.edu/"
+                ><p><strong>Seeing Theory</strong></p></a
+              >
+              <p>
+                An interactive/visual introduction to probability and statistics
+              </p>
+            </div>
+          </div>
+        </div>-->
+
+        <div class="container-fluid">
+          <!--<h1 class="text-center mb-3">Bootstrap Multi-Card Carousel</h1>-->
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner row w-100 mx-auto">
+              <div class="carousel-item col-md-4 active">
+                <a href="https://r4ds.had.co.nz/" target="_blank">
+                  <div class="card">
+                    <div class="card-body">
+                      <h4 class="card-title">R4DS</h4>
+                      <p class="card-text">
+                        Hadley Wickham's tidyr bible, free and open source
+                      </p>
+                    </div>
+                    <div class="card-footer stats rlang">
+                      <h5>
+                        Statistics, R
+                      </h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="carousel-item col-md-4">
+                <a
+                  href="https://experimentalfieldlinguistics.wordpress.com/statistics-and-r-blogs/"
+                  target="_blank"
+                >
+                  <div class="card">
+                    <div class="card-body">
+                      <h4 class="card-title">R Resources for linguists</h4>
+                      <p class="card-text">
+                        A large repository of resources for learning R, aimed
+                        particularly at field linguists
+                      </p>
+                    </div>
+                    <div class="card-footer stats rlang">
+                      <h5>
+                        Statistics, R
+                      </h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="carousel-item col-md-4">
+                <a href="https://seeing-theory.brown.edu/" target="_blank">
+                  <div class="card">
+                    <div class="card-body">
+                      <h4 class="card-title">Seeing Theory</h4>
+                      <p class="card-text">
+                        A visual/interactive introduction to probability and
+                        statistics
+                      </p>
+                    </div>
+                    <div class="card-footer stats">
+                      <h5>
+                        Statistics
+                      </h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="carousel-item col-md-4">
+                <a
+                  href="https://resources.rstudio.com/webinars/a-gentle-introduction-to-tidy-statistics-in-r"
+                  target="_blank"
+                >
+                  <div class="card">
+                    <div class="card-body">
+                      <h4 class="card-title">tidyr for beginners</h4>
+                      <p class="card-text">
+                        A gentle introduction to tidy statistics in R
+                      </p>
+                    </div>
+                    <div class="card-footer stats rlang">
+                      <h5>
+                        Statistics, R
+                      </h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="carousel-item col-md-4">
+                <a
+                  href="https://committedtotape.shinyapps.io/freeR/"
+                  target="_blank"
+                >
+                  <div class="card">
+                    <div class="card-body">
+                      <h4 class="card-title">Reading about R</h4>
+                      <p class="card-text">
+                        A collection of free reading about R
+                      </p>
+                    </div>
+                    <div class="card-footer stats rlang">
+                      <h5>
+                        Statistics, R
+                      </h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="carousel-item col-md-4">
+                <a
+                  href="http://mfviz.com/hierarchical-models/?fbclid=IwAR074-goLDlzwMwWmq86qINQRGIEclsm_SAfXin4JulC_RSGZU6MJlDBXTc"
+                  target="_blank"
+                >
+                  <div class="card">
+                    <div class="card-body">
+                      <h4 class="card-title">
+                        A visual introduction to hierarchical modelling
+                      </h4>
+                      <p class="card-text">
+                        Introduces and explains the statistical concepts behind
+                        mixed effects modeling
+                      </p>
+                    </div>
+
+                    <div class="card-footer stats">
+                      <h5>
+                        Statistics
+                      </h5>
+                    </div>
+                  </div></a
+                >
+              </div>
+              <div class="carousel-item col-md-4">
+                <a href="http://www.onezoom.org/" target="_blank">
+                  <div class="card">
+                    <div class="card-body">
+                      <h4 class="card-title">One Zoom Tree of Life</h4>
+                      <p class="card-text">
+                        An interactive map of the evolutionary relationships
+                        between 2,123,179 species of life on our planet.
+                      </p>
+                    </div>
+                    <div class="card-footer evol">
+                      <h5>
+                        Evolution
+                      </h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="carousel-item col-md-4">
+                <a
+                  href="https://drsimonj.svbtle.com/visualising-residuals"
+                  target="_blank"
+                >
+                  <div class="card">
+                    <div class="card-body">
+                      <h4 class="card-title">Visualising residuals</h4>
+                      <p class="card-text">
+                        Various methods for visualising residuals in regression
+                      </p>
+                    </div>
+                    <div class="card-footer stats">
+                      <h5>
+                        Statistics
+                      </h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="carousel-item col-md-4">
+                <a
+                  href="https://lindeloev.github.io/tests-as-linear/"
+                  target="_blank"
+                >
+                  <div class="card">
+                    <div class="card-body">
+                      <h4 class="card-title">Everything is linear</h4>
+                      <p class="card-text">
+                        Explaining common statistical tests in terms of linear
+                        models
+                      </p>
+                    </div>
+                    <div class="card-footer stats">
+                      <h5>
+                        Statistics
+                      </h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="carousel-item col-md-4">
+                <a
+                  href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619"
+                  target="_blank"
+                >
+                  <div class="card">
+                    <div class="card-body">
+                      <h4 class="card-title">Structuring a scientific paper</h4>
+                      <p class="card-text">
+                        Ten simple rules for structuring papers
+                      </p>
+                    </div>
+                    <div class="card-footer writing">
+                      <h5>
+                        Writing
+                      </h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="carousel-item col-md-4">
+                <a
+                  href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006379"
+                  target="_blank"
+                >
+                  <div class="card">
+                    <div class="card-body">
+                      <h4 class="card-title">Improving writing productivity</h4>
+                      <p class="card-text">
+                        Strategies to improve productivity in scientific writing
+                      </p>
+                    </div>
+                    <div class="card-footer writing">
+                      <h5>
+                        Writing
+                      </h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="carousel-item col-md-4">
+                <a
+                  href="http://humanorigins.si.edu/evidence/human-family-tree"
+                  target="_blank"
+                >
+                  <div class="card">
+                    <div class="card-body">
+                      <h4 class="card-title">Human Family Tree</h4>
+                      <p class="card-text">
+                        An interactive primate phylogeny
+                      </p>
+                    </div>
+                    <div class="card-footer evol">
+                      <h5>
+                        Evolution
+                      </h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="carousel-item col-md-4">
+                <a href="https://ncase.me/trust/" target="_blank">
+                  <div class="card">
+                    <div class="card-body">
+                      <h4 class="card-title">The evolution of trust</h4>
+                      <p class="card-text">
+                        An interactive game explaining the classic prisoner's
+                        dilemma
+                      </p>
+                    </div>
+                    <div class="card-footer evol">
+                      <h5>
+                        Evolution
+                      </h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="d-flex flex-row p-2 justify-content-between">
+              <a
+                id="controlPrev"
+                class="carousel-control-prev"
+                href="#myCarousel"
+                role="button"
+                data-slide="prev"
+              >
+                <i class="material-icons">
+                  navigate_before
+                </i>
+                <span class="sr-only">Previous</span>
+              </a>
+
+              <a
+                id="controlNext"
+                class="carousel-control-next"
+                href="#myCarousel"
+                role="button"
+                data-slide="next"
+              >
+                <i class="material-icons">
+                  navigate_next
+                </i>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <br />
+        <hr />
+        <h4>Tools: Links for doing stuff</h4>
+        <div class="row text-center slideanim">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <a href="https://dood.al/pinktrombone/" target="_blank"
+                ><p><strong>Pink Trombone</strong></p></a
+              >
+              <p>Browser-based articulatory speech synthesis</p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <!--<img src="paris.jpg" alt="" width="400" height="300" />-->
+              <a href="https://tla.mpi.nl/tools/tla-tools/elan/" target="_blank"
+                ><p><strong>ELAN</strong></p></a
+              >
+              <p>
+                Software for linguistic annotation/transcription of audio and
+                video files
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <!--<img src="paris.jpg" alt="" width="400" height="300" />-->
+              <a href="https://www.overleaf.com" target="_blank"
+                ><p><strong>Overleaf</strong></p></a
+              >
+              <p>
+                Browser-based itegrated LaTeX and Rich Text editor, for painless
+                (well, less pain<em>ful</em>) typesetting.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="container-fluid text-center">
+      <hr />
+      <a href="#myPage" title="To Top">
+        <img
+          src="https://cdn.glitch.com/2a501e8d-a0f6-4eba-973f-f11e410ae42e%2Flitebgtitle.png?v=1571414331882"
+          height="150"
+        />
+      </a>
+      <p>
+        &copy;2019 LEVA Group
+      </p>
+    </footer>
+
+    <script>
+      $(document).ready(function() {
+        // Add smooth scrolling to all links in navbar + footer link
+        $(".navbar a, footer a[href='#myPage']").click(function() {
+          var hash = this.hash;
+          $("html, body").animate(
+            {
+              scrollTop: $(hash).offset().top
+            },
+            900
+          );
+        });
+        //});on("click", function(event) {
+        // Make sure this.hash has a value before overriding default behavior
+        //if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        // event.preventDefault();
+
+        // Store hash
+        // var hash = this.hash;
+
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+        /*$("body").animate(
+              {
+                scrollTop: $(hash).offset().top
+              },
+              900,
+              function() {
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              }
+            );*/
+        //} // End if
+        //});
+
+        $(window).scroll(function() {
+          $(".slideanim").each(function() {
+            var pos = $(this).offset().top;
+
+            var winTop = $(window).scrollTop();
+            if (pos < winTop + 600) {
+              $(this).addClass("slide");
+            }
+          });
+        });
+
+        $("#myCarousel").on("slide.bs.carousel", function(e) {
+          var $e = $(e.relatedTarget);
+          var idx = $e.index();
+          var itemsPerSlide = 3;
+          var totalItems = $(".carousel-item").length;
+
+          if (idx >= totalItems - (itemsPerSlide - 1)) {
+            var it = itemsPerSlide - (totalItems - idx);
+            for (var i = 0; i < it; i++) {
+              // append slides to end
+              if (e.direction == "left") {
+                $(".carousel-item")
+                  .eq(i)
+                  .appendTo(".carousel-inner");
+              } else {
+                $(".carousel-item")
+                  .eq(0)
+                  .appendTo($(this).find(".carousel-inner"));
+              }
+            }
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
